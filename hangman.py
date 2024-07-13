@@ -3,8 +3,7 @@ import random
 def xinempty(x) :
  if x in empty :
      print("----Letter Already Guessed----") 
-     while x in empty :
-      x = input("Guess a letter ")
+     x = input("Guess a letter ")
   
 
 
